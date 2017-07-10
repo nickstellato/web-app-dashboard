@@ -1,4 +1,26 @@
 .main-nav {
     display: flex;
     flex-direction: column;
+    background-color: #4D4D6F;
+    min-height: 100%;
+}
+
+ul {
+    list-style: none;
+    padding: 1em;
+    min-height: 100%;
+}
+
+li {
+    padding: 1em 0;
+}
+
+.nav-item {
+    width: 2em;
+    height: 2em;
+    fill: #A6A6B7;
+}
+
+.active {
+    fill: #ffffff;
 }

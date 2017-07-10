@@ -1,18 +1,18 @@
 header {
     width: 100%;
     background-color: #7478BA;
-    color: #ffffff;
     display: inline-flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    padding: 1em;
+    padding: 1em 1em 1.5em 1em;
 }
 
 .logo {
     flex: 1;
     margin-left: 1em;
     font-size: 1.2em;
+    color: #ffffff;
 }
 
 .logo span:nth-child(1) {

@@ -356,11 +356,23 @@ th {
 * {
   box-sizing: border-box; }
 
+body {
+  font-size: 16px; }
+
 header {
+  width: 100%;
   background-color: #7478BA;
   color: #ffffff;
-  display: flex;
-  flex-direction: row; }
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 1em; }
+
+.logo {
+  flex: 1;
+  margin-left: 1em;
+  font-size: 1.2em; }
 
 .logo span:nth-child(1) {
   font-weight: 800; }
@@ -374,10 +386,28 @@ header {
   vertical-align: super; }
 
 .bell {
-  fill: #ffffff; }
+  fill: #D6D7EA;
+  width: 2em;
+  height: 2em; }
+
+.user-info {
+  border-left: 1px solid #6368B9;
+  margin-left: 2em;
+  margin-right: 2em;
+  padding-left: 1em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center; }
 
 .user-photo {
   border-radius: 50%;
-  width: 4em; }
+  height: 32px;
+  margin-right: 1em;
+  width: 2em; }
+
+.user-name {
+  font-weight: 100;
+  color: #D6D7EA; }
 
 /*# sourceMappingURL=application.css.map */

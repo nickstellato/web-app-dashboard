@@ -2,13 +2,11 @@
     display: flex;
     flex-direction: column;
     background-color: #4D4D6F;
-    min-height: 100%;
 }
 
 ul {
     list-style: none;
-    padding: 1em;
-    min-height: 100%;
+    padding: 1rem;
 }
 
 li {
@@ -16,8 +14,8 @@ li {
 }
 
 .nav-item {
-    width: 2em;
-    height: 2em;
+    width: 2rem;
+    height: 2rem;
     fill: #A6A6B7;
 }
 

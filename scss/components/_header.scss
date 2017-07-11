@@ -5,13 +5,13 @@ header {
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    padding: 1em 1em 1.5em 1em;
+    padding: 1rem 1rem 1.5rem 1rem;
 }
 
 .logo {
     flex: 1;
-    margin-left: 1em;
-    font-size: 1.2em;
+    margin-left: 1rem;
+    font-size: 1.2rem;
     color: #ffffff;
 }
 
@@ -31,15 +31,15 @@ header {
 
 .bell {
     fill: #D6D7EA;
-    width: 2em;
-    height: 2em;
+    width: 2rem;
+    height: 2rem;
 }
 
 .user-info {
     border-left: 1px solid #6368B9;
-    margin-left: 2em;
-    margin-right: 2em;
-    padding-left: 1em;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    padding-left: 1rem;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -48,9 +48,9 @@ header {
 
 .user-photo {
     border-radius: 50%;
-    height: 32px;
-    margin-right: 1em;
-    width: 2em;
+    height: 2rem;
+    margin-right: 1rem;
+    width: 2rem;
 }
 
 .user-name {

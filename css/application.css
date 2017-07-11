@@ -357,11 +357,11 @@ th {
   box-sizing: border-box; }
 
 body {
-  font-size: 16px; }
-
-.wrapper {
   display: flex;
-  flex-direction: row; }
+  flex-flow: row wrap; }
+
+body {
+  font-size: 16px; }
 
 header {
   width: 100%;
@@ -370,10 +370,11 @@ header {
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
-  padding: 1rem 1rem 1.5rem 1rem; }
+  padding: 1rem 1rem 1.5rem 1rem;
+  flex-basis: 1; }
 
 .logo {
-  flex: 1;
+  flex-grow: 1;
   margin-left: 1rem;
   font-size: 1.2rem;
   color: #ffffff; }
@@ -415,8 +416,6 @@ header {
   color: #D6D7EA; }
 
 .main-nav {
-  display: flex;
-  flex-direction: column;
   background-color: #4D4D6F; }
 
 ul {

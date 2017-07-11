@@ -363,6 +363,15 @@ body {
 body {
   font-size: 16px; }
 
+h1,
+h2 {
+  color: #6D6C6C; }
+
+main {
+  flex-basis: 2;
+  flex-grow: 1;
+  margin: 1rem; }
+
 header {
   width: 100%;
   background-color: #7478BA;
@@ -439,5 +448,21 @@ li {
 
 .active .nav-item {
   fill: #ffffff; }
+
+.alert {
+  background-color: #7478BA;
+  color: #B2B4D8;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  border-radius: .5rem;
+  padding: 1rem; }
+
+.alert-message span:first-child,
+.close {
+  color: #ffffff; }
+
+.alert-message span:nth-child(2) {
+  margin-left: .5rem; }
 
 /*# sourceMappingURL=application.css.map */

@@ -1,16 +1,11 @@
-body {
-    display: flex;
-    flex-flow: row wrap;
-}
-
-main {
-    flex-basis: 2;
-    flex-grow: 1;
-    margin: 1rem;
-}
-
 .wrapper {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    flex-wrap: no-wrap;
+}
+
+main {
+    margin: 1rem;
+    width: 100%;
 }

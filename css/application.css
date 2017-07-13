@@ -489,4 +489,10 @@ li {
 .social-site-name {
   color: #7478BA; }
 
+.search {
+  width: 30%;
+  margin: 1rem;
+  border-radius: 5px;
+  padding-left: 1rem; }
+
 /*# sourceMappingURL=application.css.map */

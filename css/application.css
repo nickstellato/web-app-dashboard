@@ -371,10 +371,10 @@ h2 {
 
 main {
   margin: 1rem;
-  width: 100%; }
+  max-width: 100%; }
 
 header {
-  width: 100%;
+  min-width: 100%;
   background-color: #7478BA;
   display: inline-flex;
   flex-direction: row;
@@ -450,7 +450,7 @@ li {
 .alert {
   background-color: #7478BA;
   color: #B2B4D8;
-  width: 100%;
+  min-width: 100%;
   display: flex;
   justify-content: space-between;
   border-radius: .5rem;

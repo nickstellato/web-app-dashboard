@@ -371,23 +371,24 @@ h2 {
 
 main {
   margin: 1rem;
-  max-width: 100%; }
+  min-width: 90%; }
 
 header {
   min-width: 100%;
-  background-color: #7478BA;
+  background-color: #7477BF;
   display: inline-flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
   padding: 1rem 1rem 1.5rem 1rem;
-  flex-basis: 1; }
+  flex-basis: 1;
+  height: 70px; }
 
 .logo {
   flex-grow: 1;
   margin-left: .5rem;
   font-size: 1.2rem;
-  color: #ffffff; }
+  color: #FFFFFF; }
 
 .logo span:nth-child(1) {
   font-weight: 800; }
@@ -395,18 +396,18 @@ header {
 .logo span:nth-child(2),
 .logo span:nth-child(3) {
   font-weight: 200;
-  color: #D6D7EA; }
+  color: #D7D7EB; }
 
 .logo span:nth-child(3) {
   vertical-align: super; }
 
 .bell {
-  fill: #D6D7EA;
+  fill: #D7D7EB;
   width: 2rem;
   height: 2rem; }
 
 .user-info {
-  border-left: 1px solid #6368B9;
+  border-left: 1px solid #5D61BF;
   margin-left: 2rem;
   margin-right: 2rem;
   padding-left: 1rem;
@@ -423,10 +424,11 @@ header {
 
 .user-name {
   font-weight: 100;
-  color: #D6D7EA; }
+  color: #D7D7EB; }
 
 .main-nav {
-  background-color: #4D4D6F; }
+  background-color: #4D4C72;
+  width: 90px; }
 
 ul {
   list-style: none;
@@ -439,17 +441,17 @@ li {
 .nav-item {
   width: 2rem;
   height: 2rem;
-  fill: #A6A6B7; }
+  fill: #A6A6B9; }
 
 .active {
-  border-left: 2px solid #9BDB8A; }
+  border-left: 2px solid #85DB80; }
 
 .active .nav-item {
-  fill: #ffffff; }
+  fill: #FFFFFF; }
 
 .alert {
-  background-color: #7478BA;
-  color: #B2B4D8;
+  background-color: #7377BF;
+  color: #D7D7EB;
   min-width: 100%;
   display: flex;
   justify-content: space-between;
@@ -458,7 +460,7 @@ li {
 
 .alert-message span:first-child,
 .close {
-  color: #ffffff; }
+  color: #FFFFFF; }
 
 .alert-message span:nth-child(2) {
   margin-left: .5rem; }
@@ -470,8 +472,8 @@ li {
   display: none; }
 
 .social-site {
-  background: #FBFBFB;
-  border: 3px solid #B2B4D8;
+  background: #FFFFFF;
+  border: 3px solid #D1D1D1;
   border-radius: 5px;
   width: 33%;
   display: flex;
@@ -479,15 +481,15 @@ li {
   padding: 2rem; }
 
 .social-site-logo-inner {
-  fill: #ffffff;
-  background-color: #7478BA;
+  fill: #FFFFFF;
+  background-color: #7377BF;
   width: 100%;
   height: 100%;
   border-radius: 50%;
   display: block; }
 
 .social-site-name {
-  color: #7478BA; }
+  color: #7377BF; }
 
 .search {
   width: 30%;

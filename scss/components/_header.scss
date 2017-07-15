@@ -1,6 +1,6 @@
 header {
     min-width: 100%;
-    background-color: #7478BA;
+    background-color: $color-main-light;
     display: inline-flex;
     flex-direction: row;
     align-items: center;
@@ -14,7 +14,7 @@ header {
     flex-grow: 1;
     margin-left: .5rem;
     font-size: 1.2rem;
-    color: #ffffff;
+    color: $color-text;
 }
 
 .logo span:nth-child(1) {
@@ -24,7 +24,7 @@ header {
 .logo span:nth-child(2),
 .logo span:nth-child(3) {
     font-weight: 200;
-    color: #D6D7EA;
+    color: $color-text-secondary;
 }
 
 .logo span:nth-child(3) {
@@ -32,13 +32,13 @@ header {
 }
 
 .bell {
-    fill: #D6D7EA;
+    fill: $color-text-secondary;
     width: 2rem;
     height: 2rem;
 }
 
 .user-info {
-    border-left: 1px solid #6368B9;
+    border-left: 1px solid $color-profile-border;
     margin-left: 2rem;
     margin-right: 2rem;
     padding-left: 1rem;
@@ -57,5 +57,5 @@ header {
 
 .user-name {
     font-weight: 100;
-    color: #D6D7EA;
+    color: $color-text-secondary;
 }

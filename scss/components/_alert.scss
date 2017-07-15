@@ -1,6 +1,6 @@
 .alert {
-    background-color: #7478BA;
-    color: #B2B4D8;
+    background-color: $color-main;
+    color: $color-text-secondary;
     min-width: 100%;
     display: flex;
     justify-content: space-between;
@@ -10,7 +10,7 @@
 
 .alert-message span:first-child,
 .close {
-    color: #ffffff;
+    color: $color-text;
 }
 
 .alert-message span:nth-child(2) {

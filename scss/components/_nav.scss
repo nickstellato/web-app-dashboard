@@ -1,5 +1,6 @@
 .main-nav {
-    background-color: #4D4D6F;
+    background-color: $color-main-dark;
+    width: 90px;
 }
 
 ul {
@@ -15,13 +16,13 @@ li {
 .nav-item {
     width: 2rem;
     height: 2rem;
-    fill: #A6A6B7;
+    fill: $color-text-dark;
 }
 
 .active {
-    border-left: 2px solid #9BDB8A;
+    border-left: 2px solid $color-highlight;
 }
 
 .active .nav-item{
-    fill: #ffffff;
+    fill: $color-text;
 }

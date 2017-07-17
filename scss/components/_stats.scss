@@ -8,6 +8,10 @@
     padding: 2rem;
 }
 
+.facebook {
+    margin: 0 3rem;
+}
+
 .social-site-logo {
     fill: $color-module-background;
     background-color: $color-main;
@@ -18,4 +22,13 @@
 
 .social-site-name {
     color:  $color-main;
+    font-size: 1.5rem;
+    margin: 0 1rem;
+}
+
+.social-site-followers {
+    font-size: 2.5rem;
+    margin: 0 1rem;
+    color: $color-text-extra-dark;
+    font-weight: 100;
 }

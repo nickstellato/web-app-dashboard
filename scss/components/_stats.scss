@@ -8,12 +8,12 @@
     padding: 2rem;
 }
 
-.social-site-logo-inner {
+.social-site-logo {
     fill: $color-module-background;
     background-color: $color-main;
+    border-radius: 50%;
     height: 70px;
     width: 70px;
-    border-radius: 50%;
 }
 
 .social-site-name {

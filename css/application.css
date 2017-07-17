@@ -480,12 +480,12 @@ li {
   flex-direction: row;
   padding: 2rem; }
 
-.social-site-logo-inner {
+.social-site-logo {
   fill: #FFFFFF;
   background-color: #7377BF;
+  border-radius: 50%;
   height: 70px;
-  width: 70px;
-  border-radius: 50%; }
+  width: 70px; }
 
 .social-site-name {
   color: #7377BF; }

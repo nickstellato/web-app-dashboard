@@ -59,6 +59,13 @@
         type: 'bar',
         data: '',
         options: {
+            scales: {
+                yAxes:  [{
+                    ticks:  {
+                        beginAtZero: true
+                    }
+                }]
+            }
 
         }
     });

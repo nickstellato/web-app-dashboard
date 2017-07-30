@@ -74,14 +74,16 @@
 
     const mobileUsersChart = new Chart(cmu, {
         type: 'doughnut',
-        data: '',
-        options: {
-            cutoutPercentage:   50,
+        data: {
+            datasets: [{
+                data: [10, 20, 30]
+            }],
             labels: [
-                "Phones",
-                "Tablets",
-                "Desktop"
+                "Phones", "Tablets", "Desktop"
             ]
+        },
+        options: {
+            cutoutPercentage:   50
         }
     });
 })();

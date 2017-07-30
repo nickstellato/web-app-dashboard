@@ -57,12 +57,24 @@
 
     const dailyTrafficChart = new Chart(cdt, {
         type: 'bar',
-        data: '',
+        data: {
+            datasets: [{
+                data: [50, 75, 150, 100, 200, 175, 75]
+            }],
+            labels: [
+                "S", "M", "T", "W", "T", "F", "S"
+            ]
+        },
         options: {
             scales: {
                 yAxes:  [{
                     ticks:  {
                         beginAtZero: true
+                    }
+                }],
+                xAxes: [{
+                    gridLines: {
+                        offsetGridLines: true
                     }
                 }]
             }

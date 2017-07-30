@@ -373,6 +373,11 @@ main {
   margin: 1rem;
   min-width: 90%; }
 
+.chart-container {
+  min-width: 100%;
+  position: relative;
+  padding-right: 2rem; }
+
 header {
   min-width: 100%;
   background-color: #7477BF;
@@ -405,6 +410,15 @@ header {
   fill: #D7D7EB;
   width: 2rem;
   height: 2rem; }
+
+.circle {
+  width: 8px;
+  height: 8px;
+  background-color: #85DB80;
+  border-radius: 50%;
+  margin-top: -30px;
+  margin-left: -5px;
+  padding-top: 0; }
 
 .user-info {
   border-left: 1px solid #5D61BF;

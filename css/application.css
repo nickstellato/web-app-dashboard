@@ -378,6 +378,20 @@ main {
   position: relative;
   padding-right: 2rem; }
 
+.new-members {
+  border-top: 1px solid black;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+  margin-top: 2rem; }
+
+.new-members .member {
+  border-bottom: 1px solid black;
+  padding: 1rem 0;
+  width: 90%; }
+
+.new-members .member:last-child {
+  border-bottom: none; }
+
 header {
   min-width: 100%;
   background-color: #7477BF;
@@ -520,5 +534,12 @@ li {
   margin: 1rem;
   border-radius: 5px;
   padding-left: 1rem; }
+
+.member-pic {
+  border-radius: 50%;
+  width: 2.5rem; }
+
+.member-email {
+  color: #7377BF; }
 
 /*# sourceMappingURL=application.css.map */

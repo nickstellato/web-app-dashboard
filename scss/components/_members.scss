@@ -1,6 +1,37 @@
+.new-members {
+    border-top: 1px solid $color-divider;
+    border-right: 1px solid $color-divider;
+    border-bottom: 1px solid $color-divider;
+    padding-left: 2rem;
+    padding-top: .5rem;
+}
+
+.member {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 1px solid $color-divider;
+    width: 90%;
+    color: $color-text-dark;
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+}
+
+.member:last-child {
+    border-bottom: none;
+}
+
 .member-pic {
     border-radius: 50%;
     width: 2.5rem;
+    height: 2.5rem;
+}
+
+.member-info {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin-left: 1rem;
 }
 
 .member-email {

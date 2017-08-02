@@ -16,19 +16,3 @@ main {
     padding-right: 2rem;
 }
 
-.new-members {
-    border-top: 1px solid black;
-    border-right: 1px solid black;
-    border-bottom: 1px solid black;
-    margin-top: 2rem;
-}
-
-.new-members .member {
-    border-bottom: 1px solid black;
-    padding: 1rem 0;
-    width: 90%;
-}
-
-.new-members .member:last-child {
-    border-bottom: none;
-}

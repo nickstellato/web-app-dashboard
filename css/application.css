@@ -361,7 +361,7 @@ body {
 
 h1,
 h2 {
-  color: #676767; }
+  color: #A6A6B9; }
 
 .wrapper {
   display: flex;
@@ -377,20 +377,6 @@ main {
   min-width: 100%;
   position: relative;
   padding-right: 2rem; }
-
-.new-members {
-  border-top: 1px solid black;
-  border-right: 1px solid black;
-  border-bottom: 1px solid black;
-  margin-top: 2rem; }
-
-.new-members .member {
-  border-bottom: 1px solid black;
-  padding: 1rem 0;
-  width: 90%; }
-
-.new-members .member:last-child {
-  border-bottom: none; }
 
 header {
   min-width: 100%;
@@ -535,9 +521,36 @@ li {
   border-radius: 5px;
   padding-left: 1rem; }
 
+.new-members {
+  border-top: 1px solid #D2D2D2;
+  border-right: 1px solid #D2D2D2;
+  border-bottom: 1px solid #D2D2D2;
+  padding-left: 2rem;
+  padding-top: .5rem; }
+
+.member {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: 1px solid #D2D2D2;
+  width: 90%;
+  color: #A6A6B9;
+  margin-bottom: 1rem;
+  padding-bottom: 1rem; }
+
+.member:last-child {
+  border-bottom: none; }
+
 .member-pic {
   border-radius: 50%;
-  width: 2.5rem; }
+  width: 2.5rem;
+  height: 2.5rem; }
+
+.member-info {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  margin-left: 1rem; }
 
 .member-email {
   color: #7377BF; }

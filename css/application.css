@@ -521,7 +521,8 @@ li {
   border-radius: 5px;
   padding-left: 1rem; }
 
-.new-members {
+.new-members,
+.recent-activity {
   border-top: 1px solid #D2D2D2;
   border-right: 1px solid #D2D2D2;
   border-bottom: 1px solid #D2D2D2;
@@ -553,6 +554,10 @@ li {
   margin-left: 1rem; }
 
 .member-email {
+  color: #7377BF; }
+
+.chevron {
+  font-size: 2em;
   color: #7377BF; }
 
 /*# sourceMappingURL=application.css.map */

@@ -13,10 +13,6 @@ input {
     font-weight: 100;
 }
 
-input:placeholder {
-    color: $color-text-secondary;
-}
-
 input[name="name"] {
     padding-left: 1rem;
 }

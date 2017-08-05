@@ -578,9 +578,6 @@ input {
   background-color: #FBFBFB;
   font-weight: 100; }
 
-input:placeholder {
-  color: #D7D7EB; }
-
 input[name="name"] {
   padding-left: 1rem; }
 

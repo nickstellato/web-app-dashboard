@@ -378,7 +378,8 @@ main {
   position: relative;
   padding-right: 2rem; }
 
-.message-user {
+.message-user,
+.settings {
   padding: 1rem 1rem 3rem 1rem;
   border-top: 1px solid #D2D2D2;
   border-right: 1px solid #D2D2D2; }
@@ -586,5 +587,8 @@ textarea::placeholder {
 input[type="submit"] {
   color: #FFFFFF;
   background-color: #7377BF; }
+
+input[value="cancel"] {
+  background-color: #A6A6B9; }
 
 /*# sourceMappingURL=application.css.map */

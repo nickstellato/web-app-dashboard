@@ -16,7 +16,8 @@ main {
     padding-right: 2rem;
 }
 
-.message-user {
+.message-user,
+.settings {
     padding: 1rem 1rem 3rem 1rem;
     border-top: 1px solid $color-divider;
     border-right: 1px solid $color-divider;

@@ -230,6 +230,17 @@
         </section>
         <section class="settings">
           <h2>Settings</h2>
+          <form action="post">
+            <label for="notifications">Send Email Notifications</label><input name="notifications" type="radio">
+            <label for="public">Set Profile to Public</label><input type="radio" name="public">
+            <input type="text" name="timezones" placeholder="Select Timezone" list="timezones">
+            <datalist id="timezones">
+              <option value="Central">
+              <option value="Pacific">
+            </datalist>
+            <input type="submit" value="save">
+            <input type="submit" value="cancel">
+          </form>
         </section>
       </main>
     </div>

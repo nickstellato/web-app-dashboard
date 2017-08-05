@@ -593,7 +593,7 @@ input[type="submit"] {
   color: #FFFFFF;
   background-color: #7377BF; }
 
-input[value="cancel"] {
+input[value="CANCEL"] {
   background-color: #A6A6B9;
   margin-left: 3rem; }
 

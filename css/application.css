@@ -578,11 +578,8 @@ input {
   background-color: #FBFBFB;
   font-weight: 100; }
 
-input[name="name"] {
-  padding-left: 1rem; }
-
+input[name="name"],
 input[name="message"] {
-  height: 4rem;
   padding-left: 1rem; }
 
 input[type="submit"] {

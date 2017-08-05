@@ -1,0 +1,32 @@
+form {
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+}
+
+input {
+    margin-top: 1rem;
+    height: 2rem;
+    border: 1px solid $color-divider;
+    border-radius: .25rem;
+    background-color: $color-background;
+    font-weight: 100;
+}
+
+input:placeholder {
+    color: $color-text-secondary;
+}
+
+input[name="name"] {
+    padding-left: 1rem;
+}
+
+input[name="message"] {
+    height: 4rem;
+    padding-left: 1rem;    
+}
+
+input[type="submit"] {
+    background-color: $color-main;
+    color: $color-text;
+}

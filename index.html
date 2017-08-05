@@ -231,15 +231,27 @@
         <section class="settings">
           <h2>Settings</h2>
           <form action="post">
-            <label for="notifications">Send Email Notifications</label><input name="notifications" type="radio">
-            <label for="public">Set Profile to Public</label><input type="radio" name="public">
+            <div class="rows">
+              <label for="notifications">Send Email Notifications</label>
+              <input name="notifications" type="radio">
+                <option value="1"></option>
+                <option value="2"></option>
+            </div>
+            <div class="row">
+               <label for="public">Set Profile to Public</label>
+               <input type="radio" name="public">
+                <option value="1"></option>
+                <option value="2"></option>
+            </div>
             <input type="text" name="timezones" placeholder="Select Timezone" list="timezones">
             <datalist id="timezones">
               <option value="Central">
               <option value="Pacific">
             </datalist>
-            <input type="submit" value="save">
-            <input type="submit" value="cancel">
+            <div class="row">
+              <input type="submit" value="save">
+              <input type="submit" value="cancel">
+            </div>
           </form>
         </section>
       </main>

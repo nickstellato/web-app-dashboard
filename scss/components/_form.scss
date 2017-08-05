@@ -20,10 +20,12 @@ textarea::placeholder {
 }
 
 input[type="submit"] {
+    width: 100%;
     color: $color-text;
     background-color: $color-main;
 }
 
 input[value="cancel"] {
     background-color: $color-text-dark;
+    margin-left: 3rem;
 }

@@ -23,4 +23,9 @@ main {
     border-right: 1px solid $color-divider;
 }
 
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
 

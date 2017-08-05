@@ -384,6 +384,10 @@ main {
   border-top: 1px solid #D2D2D2;
   border-right: 1px solid #D2D2D2; }
 
+.row {
+  display: flex;
+  flex-direction: row; }
+
 header {
   min-width: 100%;
   background-color: #7477BF;
@@ -585,10 +589,12 @@ textarea::placeholder {
   color: #D2D2D2; }
 
 input[type="submit"] {
+  width: 100%;
   color: #FFFFFF;
   background-color: #7377BF; }
 
 input[value="cancel"] {
-  background-color: #A6A6B9; }
+  background-color: #A6A6B9;
+  margin-left: 3rem; }
 
 /*# sourceMappingURL=application.css.map */

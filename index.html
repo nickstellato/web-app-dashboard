@@ -231,17 +231,11 @@
         <section class="settings">
           <h2>Settings</h2>
           <form action="post">
-            <div class="rows">
-              <label for="notifications">Send Email Notifications</label>
-              <input name="notifications" type="radio">
-                <option value="1"></option>
-                <option value="2"></option>
+            <div class="switch">
+              Send Email Notifications<input id="switch-1" class="switch-toggle switch-toggle-round" name="notifications" type="checkbox"><label for="switch-1"></label>
             </div>
-            <div class="row">
-               <label for="public">Set Profile to Public</label>
-               <input type="radio" name="public">
-                <option value="1"></option>
-                <option value="2"></option>
+            <div class="switch">
+              Set Profile to Public<input id="switch-2" class="switch-toggle switch-toggle-round" type="checkbox" name="public"><label for="switch-2"></label>
             </div>
             <input type="text" name="timezones" placeholder="Select Timezone" list="timezones">
             <datalist id="timezones">

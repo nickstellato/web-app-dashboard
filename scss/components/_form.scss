@@ -50,7 +50,7 @@ input[value="CANCEL"] {
 
 input.switch-toggle-round + label {
   padding: 2px;
-  width: 90px;
+  width: 120px;
   height: 45px;
   background-color: $color-inactive;
   border-radius: 30px;
@@ -60,9 +60,9 @@ input.switch-toggle-round + label:before,
 input.switch-toggle-round + label:after {
     display: block;
     position: absolute;
-    top: 6px;
-    left: 6px;
-    bottom: 6px;
+    top: 5px;
+    left: 5px;
+    bottom: 5px;
     content: "";
 }
 
@@ -70,7 +70,6 @@ input.switch-toggle-round + label:before {
   right: 1px;
   background-color: $color-inactive;
   border-radius: 30px;
-  transition: background 0.4s;
 }
 
 input.switch-toggle-round + label:after {
@@ -82,10 +81,19 @@ input.switch-toggle-round + label:after {
   transition: margin 0.4s;
 }
 
+input.switch-toggle-round:checked + label {
+    background-color: $color-main;
+}
+
 input.switch-toggle-round:checked + label:before {
-  background-color: $color-main;
+    position: absolute;
+    padding-top: 10px;
+    padding-left: 10px;
+    background-color: $color-main;
+    color: #fff;
+    content: "ON";
 }
 
 input.switch-toggle-round:checked + label:after {
-  margin-left: 42px;
+  margin-left: 75px;
 }

@@ -615,7 +615,7 @@ input[value="CANCEL"] {
 
 input.switch-toggle-round + label {
   padding: 2px;
-  width: 90px;
+  width: 120px;
   height: 45px;
   background-color: #B2B2B2;
   border-radius: 30px; }
@@ -624,16 +624,15 @@ input.switch-toggle-round + label:before,
 input.switch-toggle-round + label:after {
   display: block;
   position: absolute;
-  top: 6px;
-  left: 6px;
-  bottom: 6px;
+  top: 5px;
+  left: 5px;
+  bottom: 5px;
   content: ""; }
 
 input.switch-toggle-round + label:before {
   right: 1px;
   background-color: #B2B2B2;
-  border-radius: 30px;
-  transition: background 0.4s; }
+  border-radius: 30px; }
 
 input.switch-toggle-round + label:after {
   width: 35px;
@@ -643,10 +642,18 @@ input.switch-toggle-round + label:after {
   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
   transition: margin 0.4s; }
 
-input.switch-toggle-round:checked + label:before {
+input.switch-toggle-round:checked + label {
   background-color: #7377BF; }
 
+input.switch-toggle-round:checked + label:before {
+  position: absolute;
+  padding-top: 10px;
+  padding-left: 10px;
+  background-color: #7377BF;
+  color: #fff;
+  content: "ON"; }
+
 input.switch-toggle-round:checked + label:after {
-  margin-left: 42px; }
+  margin-left: 75px; }
 
 /*# sourceMappingURL=application.css.map */

@@ -32,6 +32,13 @@ input[value="CANCEL"] {
 
 .switch {
     color: $color-text-dark;
+    margin-bottom: 2rem;
+    font-size: 1.2rem;
+}
+
+.switch span {
+    width: 20%;
+    margin-right: 2rem;
 }
 
 .switch-toggle {

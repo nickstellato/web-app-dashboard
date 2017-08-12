@@ -1,22 +1,22 @@
 .main-nav {
     background-color: $color-main-dark;
-    width: 90px;
-    > ul {
+    display: flex;
+    width: 100%;
+    ul {
         list-style: none;
-        padding: 1rem 1rem 1rem 0;
-    }
-}
+        display: flex;
+        justify-content: space-between;
+        align-content: center;
+        
+        .nav-item {
+            flex-direction: row;
+            fill: $color-text-dark;      
+            width: 100%;
 
-.nav-item {
-    width: 2rem;
-    height: 2rem;
-    fill: $color-text-dark;
-}
-
-.active {
-    border-left: 2px solid $color-highlight;
-}
-
-.active .nav-item{
-    fill: $color-text;
+            &.active {
+                border-bottom: 2px solid $color-highlight;
+                fill: $color-text;
+            }
+        }
+   }
 }

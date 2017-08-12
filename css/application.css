@@ -393,18 +393,15 @@ header {
   min-width: 100%;
   background-color: #7477BF;
   display: inline-flex;
-  flex-direction: row;
   align-items: center;
-  justify-content: space-around;
-  padding: 1rem 1rem 1.5rem 1rem;
-  flex-basis: 1;
-  height: 70px; }
+  padding: 1rem 1rem 1rem 1rem; }
 
 .logo {
   flex-grow: 1;
   margin-left: .5rem;
   font-size: 1.2rem;
-  color: #FFFFFF; }
+  color: #FFFFFF;
+  margin-right: 1rem; }
 
 .logo span:nth-child(1) {
   font-weight: 800; }
@@ -420,25 +417,23 @@ header {
 .bell {
   fill: #D7D7EB;
   width: 2rem;
-  height: 2rem; }
+  height: 2rem;
+  margin-right: -2.5rem; }
 
 .circle {
-  width: 8px;
-  height: 8px;
+  width: .5rem;
+  height: .5rem;
   background-color: #85DB80;
   border-radius: 50%;
-  margin-top: -30px;
-  margin-left: -5px;
-  padding-top: 0; }
+  margin-bottom: 2rem;
+  margin-right: -1rem;
+  margin-left: 2rem; }
 
 .user-info {
   border-left: 1px solid #5D61BF;
   margin-left: 2rem;
-  margin-right: 2rem;
   padding-left: 1rem;
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
   align-items: center; }
 
 .user-photo {

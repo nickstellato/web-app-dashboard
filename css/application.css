@@ -363,12 +363,6 @@ h1,
 h2 {
   color: #A6A6B9; }
 
-.wrapper {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  flex-wrap: no-wrap; }
-
 main {
   margin: 1rem;
   min-width: 90%; }
@@ -449,14 +443,9 @@ header {
 .main-nav {
   background-color: #4D4C72;
   width: 90px; }
-
-ul {
-  list-style: none;
-  padding: 1rem 1rem 1rem 0; }
-
-li {
-  padding: .5rem 1.25rem;
-  margin-bottom: 2rem; }
+  .main-nav > ul {
+    list-style: none;
+    padding: 1rem 1rem 1rem 0; }
 
 .nav-item {
   width: 2rem;

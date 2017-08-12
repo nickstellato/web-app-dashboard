@@ -1,16 +1,10 @@
 .main-nav {
     background-color: $color-main-dark;
     width: 90px;
-}
-
-ul {
-    list-style: none;
-    padding: 1rem 1rem 1rem 0;
-}
-
-li {
-    padding: .5rem 1.25rem;
-    margin-bottom: 2rem;
+    > ul {
+        list-style: none;
+        padding: 1rem 1rem 1rem 0;
+    }
 }
 
 .nav-item {

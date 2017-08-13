@@ -4,6 +4,7 @@ header {
     display: inline-flex;
     align-items: center;
     padding: 1rem 1rem 1rem 1rem;
+    margin: 0;
 }
 
 .logo {
@@ -12,20 +13,20 @@ header {
     font-size: 1.2rem;
     color: $color-text;
     margin-right: 1rem;
-}
 
-.logo span:nth-child(1) {
-    font-weight: 800;
-}
+    & span:nth-child(1) {
+        font-weight: 800;
+    }
 
-.logo span:nth-child(2),
-.logo span:nth-child(3) {
-    font-weight: 200;
-    color: $color-text-secondary;
-}
+    & span:nth-child(2),
+    & span:nth-child(3) {
+        font-weight: 200;
+        color: $color-text-secondary;
+    }
 
-.logo span:nth-child(3) {
-    vertical-align: super;
+    & span:nth-child(3) {
+        vertical-align: super;
+    }
 }
 
 .bell {
@@ -51,16 +52,17 @@ header {
     padding-left: 1rem;
     display: flex;
     align-items: center;
+
+    .user-photo {
+        border-radius: 50%;
+        height: 2rem;
+        margin-right: 1rem;
+        width: 2rem;
+    }
+
+    .user-name {
+        font-weight: 100;
+        color: $color-text-secondary;
+    }
 }
 
-.user-photo {
-    border-radius: 50%;
-    height: 2rem;
-    margin-right: 1rem;
-    width: 2rem;
-}
-
-.user-name {
-    font-weight: 100;
-    color: $color-text-secondary;
-}

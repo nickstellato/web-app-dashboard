@@ -1,16 +1,14 @@
 header {
-    min-width: 100%;
+    width: 100%;
     background-color: $color-main-light;
     display: inline-flex;
-    align-items: center;
-    padding: 1rem 1rem 1rem 1rem;
-    margin: 0;
+    padding-right: .25rem;
 }
 
 .logo {
     flex-grow: 1;
-    margin-left: .5rem;
-    font-size: 1.2rem;
+    margin-left: .25rem;
+    font-size: 1.25rem;
     color: $color-text;
     margin-right: 1rem;
 
